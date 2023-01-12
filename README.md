@@ -3,6 +3,7 @@
 Desenvolvimento de um site de bolos.
 Página web desenvolvida para praticar techs.
 
+Um HEADER com o nome do site, e um menu.
 Foi criado um slides de fotos na primeira parte da página.
 
 Um pequeno trecho para descrever sobre como surgiu a Delicious.
