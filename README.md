@@ -4,11 +4,13 @@ Desenvolvimento de um site de bolos.
 Página web desenvolvida para praticar techs.
 
 Um HEADER com o nome do site, e um menu.
-Foi criado um slides de fotos na primeira parte da página.
+Foi criado um slides automático de fotos na primeira parte da página, para animação.
 
 Um pequeno trecho para descrever sobre como surgiu a Delicious.
 
 Uma parte para demonstrar os tipos de - Massas & Recheios
+
+Outro slide, porém manual, para que o próprio usuário possa passar as fotos.
 
 ## Techs Usadas:
 </div>
