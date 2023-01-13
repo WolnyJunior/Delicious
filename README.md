@@ -25,3 +25,6 @@ Outro slide, porém manual, para que o próprio usuário possa passar as fotos.
 
 ## Acesse o Site 
 <a href="https://delicious-xi.vercel.app/">Delicious</a>
+
+<a href="https://www.instagram.com/delicious_da_vih/?next=%2F" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
+<a href="https://vercel.com/wolnyjunior/delicious" target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
