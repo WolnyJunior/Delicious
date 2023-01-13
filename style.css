@@ -1,12 +1,16 @@
 body{
     background-color: #8A2BE2;
+    padding: 0;
+    margin: 0;
+}
+
+#container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 0;
-    margin: 0;
+
 }
 
 .fundo-gradiente{
@@ -31,6 +35,12 @@ header{
 }
 .sombra{
     box-shadow: 5px 8px 12px black;
+}
+
+#home{
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
 }
 
 .nome-menu{
@@ -58,7 +68,10 @@ header{
     align-items: center;
     margin: 80px;
     font-size: 2.5vh;
+}
 
+#apresentacao{
+    margin: 20px;
 }
 
 .bolo-sobre{
@@ -88,7 +101,7 @@ header{
 }
 
 .cardapios{
-    font-size: 3.5vh;
+    font-size: 2.5vh;
     margin: 80px;
 }
 
