@@ -98,7 +98,8 @@ header{
 
 .bolos{
     width: 100%;
-    border: 1px solid white;
+    height: 700px;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +107,7 @@ header{
 }
 
 .imagem-slides{
-    width: 70vh;
+    width: 60vh;
     border-radius: 30px;
 }
 
