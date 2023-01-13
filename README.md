@@ -23,3 +23,5 @@ Outro slide, porém manual, para que o próprio usuário possa passar as fotos.
   </div>
 </div>
 
+## Acesse o Site 
+<a href="https://delicious-xi.vercel.app/">Delicious</a>
