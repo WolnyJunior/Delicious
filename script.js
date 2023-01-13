@@ -43,3 +43,12 @@ function showDivs(n){
 
     x[slideIndex-1].style.display = "block";
 }
+
+function bolos(tipoDeBolo) {
+    var i;
+    var x = document.getElementsByClassName("bolos");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    document.getElementById(tipoDeBolo).style.display = "flex";
+  }
