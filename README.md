@@ -17,8 +17,6 @@ Outro slide, porém manual, para que o próprio usuário possa passar as fotos.
 Adicionado um botão fixo no lado direito embaixo, que direciona ao início da página.
 Adicionado os textos de conteúdo "sobre", "cardápio" e "tamanhos".
 
-
-
 ## Techs Usadas:
 </div>
   <div style="display: inline_block"><br>
