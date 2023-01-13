@@ -9,9 +9,15 @@ Foi criado um slides automático de fotos na primeira parte da página, para ani
 
 Um pequeno trecho para descrever sobre como surgiu a Delicious.
 
-Uma parte para demonstrar os tipos de - Massas & Recheios
+Uma parte para demonstrar os tipos de - Massas, Recheios.
 
 Outro slide, porém manual, para que o próprio usuário possa passar as fotos.
+
+## commit "AttIII"
+Adicionado um botão fixo no lado direito embaixo, que direciona ao início da página.
+Adicionado os textos de conteúdo "sobre", "cardápio" e "tamanhos".
+
+
 
 ## Techs Usadas:
 </div>
