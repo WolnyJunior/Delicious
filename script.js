@@ -19,27 +19,27 @@ function carrossel(){
 
 //Slide de Fotos Manual
 
-var slidesBolos = 1;
-showDivs(slidesBolos);
+var slideIndex = 1;
+showDivs(slideIndex);
 
-function slideFotos(n){
-    showDivs(slidesBolos += n);
+function plusDivs(n){
+    showDivs(slideIndex += n);
 }
 
 function showDivs(n){
     var i;
-    var x = document.getElementsByClassName("slide-apresentacao");
+    var x = document.getElementsByClassName("imagem-slides");
     if (n > x.length){ 
-        slidesBolos = 1
+        slideIndex = 1
     }
 
     if ( n < 1){
-        slidesBolos = x.length
+        slideIndex = x.length
     };
     
     for(i = 0; i <x.length; i++){
         x[i].style.display = "none";
     }
 
-    x[slides-1].style.display = "block";
+    x[slideIndex-1].style.display = "block";
 }
