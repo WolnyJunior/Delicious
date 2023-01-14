@@ -35,7 +35,8 @@ Adicionado link para demonstrar como devem ser cortadas as fatias de bolo alto e
   </div>
 </div>
 
-## Site & Instagran 
-
-<a href="https://www.instagram.com/delicious_da_vih/?next=%2F" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
+## Acesse o Site 
 <a href="https://delicious-xi.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
+
+## Contato
+<a href="https://www.instagram.com/delicious_da_vih/?next=%2F" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
