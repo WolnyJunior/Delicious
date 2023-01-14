@@ -22,6 +22,8 @@ Adicionado um seletor para definir o tamanho dos bolos, vai servir como base par
 
 Adicionado 3 TABS para separar os sabores e tipos de produtos.
 
+Adicionado link para demonstrar como devem ser cortadas as fatias de bolo alto e redondo.
+
 
 ## Techs Usadas:
 </div>
@@ -33,7 +35,8 @@ Adicionado 3 TABS para separar os sabores e tipos de produtos.
   </div>
 </div>
 
-## Site & Instagran 
-
-<a href="https://www.instagram.com/delicious_da_vih/?next=%2F" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
+## Acesse o Site 
 <a href="https://delicious-xi.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
+
+## Contato
+<a href="https://www.instagram.com/delicious_da_vih/?next=%2F" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
