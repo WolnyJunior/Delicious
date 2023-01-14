@@ -26,6 +26,8 @@ Adicionado link para demonstrar como devem ser cortadas as fatias de bolo alto e
 
 Adicionado rodapé com contatos da boleria, e do desenvolverdor(me).
 
+Adiconado dois textos extras de informações sobre encomenda e modo de pagamento.
+
 
 ## Techs Usadas:
 </div>
