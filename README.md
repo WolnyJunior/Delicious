@@ -24,6 +24,8 @@ Adicionado 3 TABS para separar os sabores e tipos de produtos.
 
 Adicionado link para demonstrar como devem ser cortadas as fatias de bolo alto e redondo.
 
+Adicionado rodapé com contatos da boleria, e do desenvolverdor(me).
+
 
 ## Techs Usadas:
 </div>
