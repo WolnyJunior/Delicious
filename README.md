@@ -22,6 +22,8 @@ Adicionado um seletor para definir o tamanho dos bolos, vai servir como base par
 
 Adicionado 3 TABS para separar os sabores e tipos de produtos.
 
+Adicionado link para demonstrar como devem ser cortadas as fatias de bolo alto e redondo.
+
 
 ## Techs Usadas:
 </div>
