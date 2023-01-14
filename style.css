@@ -10,7 +10,6 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-
 }
 
 .fundo-gradiente{
@@ -54,7 +53,6 @@ header{
     background-color: #8A2BE2;
     display: inline-block;
     margin: 10px;
-
 }
 
 .bolo-capa{
@@ -167,7 +165,43 @@ header{
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.9);
 }
 
+#extras{
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
 
+}
 
+footer{
+    width: 100%;
+    background-color: #bb8be9;
+    padding: 5px;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contatos{
+    text-align: center;
+    display: inline-block;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.icon-rede-social{
+    width: 35px;
+    margin: 10px;
+}
+
+#rodape, #contatos{
+    text-align: center;
+}
 
 
