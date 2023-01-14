@@ -92,7 +92,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    animation: FadeIn 2s linear;
     /* border: 3px solid orange; */
 }
 
@@ -148,6 +147,11 @@ header{
     color: black;
 }
 
+#tutorial{
+    font-size: 1.3em;
+    text-align: center;
+}
+
 .bolos, .bolos-slide{
     width: 100%;
     height: 700px;
@@ -161,7 +165,6 @@ header{
     width: 45%;
     border-radius: 30px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.9);
-
 }
 
 
