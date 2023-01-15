@@ -34,7 +34,6 @@ Foi arrumado as cores do site de acordo com gosto da cliente e com o logo da bol
 
 Foram excluídas algumas fotos, que a cliente achou melhor.
 
-
 ## Techs Usadas:
 </div>
   <div style="display: inline_block"><br>
