@@ -24,6 +24,17 @@ Adicionado 3 TABS para separar os sabores e tipos de produtos.
 
 Adicionado link para demonstrar como devem ser cortadas as fatias de bolo alto e redondo.
 
+Adicionado rodapé com contatos da boleria, e do desenvolverdor(me).
+
+Adiconado dois textos extras de informações sobre encomenda e modo de pagamento.
+
+## 8° - commit
+
+Foi arrumado as cores do site de acordo com gosto da cliente e com o logo da boleria que logo será colocado.
+
+Foram excluídas algumas fotos, que a cliente achou melhor.
+
+Corrigido texto sobre sabores de recheio dos chocotones.
 
 ## Techs Usadas:
 </div>
