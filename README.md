@@ -28,13 +28,17 @@ Adicionado rodapé com contatos da boleria, e do desenvolverdor(me).
 
 Adiconado dois textos extras de informações sobre encomenda e modo de pagamento.
 
-## 8° - commit
+## 8º - commit
 
 Foi arrumado as cores do site de acordo com gosto da cliente e com o logo da boleria que logo será colocado.
 
 Foram excluídas algumas fotos, que a cliente achou melhor.
 
 Corrigido texto sobre sabores de recheio dos chocotones.
+
+## 9º - commit
+
+Adicionado um script para transição scroll ( estilo scroll-behavior: smooth ), só que mais suave da página, ao clicar nos botões de link.
 
 ## Techs Usadas:
 </div>
