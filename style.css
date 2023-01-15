@@ -18,15 +18,33 @@ body{
     color: #444;
 }
 
-.fundo-gradiente{
+.banner{
     width: 80%;
-    height: 600px;
+    max-width: 1000px;
+    height: 40vw;
+    max-height: 600px;
+
     border-radius: 100px;
     background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.banner img{
+    opacity: 0;
+
+    position: absolute;
+
+    object-fit: cover;
+
+    transition: opacity 1000ms;
+}
+
+.banner img.selected { 
+    opacity: 1;
 }
 
 header{
@@ -73,7 +91,6 @@ header{
     padding: 7px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.09);
-
 }
 
 .bolo-capa{
@@ -170,7 +187,6 @@ span{
 
 .tamanhos:hover, .bts:hover, #home:hover{
     background-color: rgba(0, 0, 0, 0.09);
-    /* color: black; */
 }
 
 #tutorial{
@@ -204,7 +220,6 @@ span{
 
 footer{
     width: 100%;
-    /* background-color: #bb8be9; */
     background-image: linear-gradient(to top, #009efd 0%, #f794a4 100%);
     padding: 5px;
     font-size: 1em;

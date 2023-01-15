@@ -1,21 +1,34 @@
 //Slide de Fotos Automático
-var slides = 0;
-carrossel();
 
-function carrossel(){
-    var i;
-    var imagens = document.getElementsByClassName("slide-inicial");
-    for (i = 0; i < imagens.length; i ++){
-        imagens[i].style.display = "none";
-    }
+let time = 3000,
+    currentImageIndex = 0,
+    images = document
+                .querySelectorAll(".banner img")
+    max = images.length;
 
-    slides++;
-    if( slides > imagens.length){
-        slides = 1
-    }
-    imagens[slides-1].style.display = "block";
-    setTimeout(carrossel, 9000);
+function nextImage() {
+
+    images[currentImageIndex]
+        .classList.remove("selected")
+
+    currentImageIndex++
+
+    if(currentImageIndex >= max)
+        currentImageIndex = 0
+
+    images[currentImageIndex]
+        .classList.add("selected")
 }
+
+function start() {
+    setInterval(() => {
+        // troca de image
+        nextImage()
+    }, time)
+}
+
+window.addEventListener("load", start)
+
 
 //Slide de Fotos Manual
 
@@ -53,7 +66,7 @@ function bolos(tipoDeBolo) {
     document.getElementById(tipoDeBolo).style.display = "flex";
   }
 
-  //Script para função com scroll suave
+//Script para função com scroll suave
   $(document).ready(function(){
     $("a").on('click', function(event) {
   
