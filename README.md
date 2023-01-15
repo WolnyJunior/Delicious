@@ -28,6 +28,12 @@ Adicionado rodapé com contatos da boleria, e do desenvolverdor(me).
 
 Adiconado dois textos extras de informações sobre encomenda e modo de pagamento.
 
+## 8° - commit
+
+Foi arrumado as cores do site de acordo com gosto da cliente e com o logo da boleria que logo será colocado.
+
+Foram excluídas algumas fotos, que a cliente achou melhor.
+
 
 ## Techs Usadas:
 </div>
