@@ -38,7 +38,7 @@ Corrigido texto sobre sabores de recheio dos chocotones.
 
 ## 9º - commit
 
-Adicionado um script para transição scroll mais suave da página, ao clicar nos botões de link
+Adicionado um script para transição scroll ( estilo scroll-behavior: smooth ), só que mais suave da página, ao clicar nos botões de link.
 
 ## Techs Usadas:
 </div>
