@@ -15,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     color: #444;
+    font-size: 14px;
 }
 
 .banner{
@@ -46,7 +47,7 @@ header{
     width: 100%;
     background-image: linear-gradient(to top, #fdd6bd 10%, #009efd 100%);
     padding: 0px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -63,7 +64,7 @@ header{
     bottom: 20px;
 }
 
-.nome-menu{
+.nome-boleria{
     display: flex;
     justify-content: flex-start;
     font-size: 2em;
@@ -90,7 +91,7 @@ header{
 }
 
 .bolo-capa{
-    width: 40%;
+    width: 45%;
 }
 
 #sobre{
@@ -98,13 +99,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 80px;
-    font-size: 1.2em;
-    /* height: auto; */
-}
-
-#apresentacao{
-    margin: 20px;
+    font-size: 1.3em;
+    height: auto;
 }
 
 .bolo-sobre{
@@ -115,16 +111,19 @@ header{
 
 .bolo-antes{
     float: left;
+    margin: 20px;
 }
 
 .bolo-depois{
     float: right;
+    margin: 20px;
 }
 
 #sabores, #bolo-vulcao, #chocotone{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 5px;
 }
 
 .bolo-cardapio{
@@ -146,33 +145,31 @@ span{
 }
 
 .bts, #home{
+    outline:none;
     box-shadow: 0 9px #444;
-    outline: none;
     background-color: #f794a4;
-    color: #444;
-    font-size: 1.2em;
     border: 1px solid #999;
     border-radius: 15px;
+    color: #444;
+    font-size: 1.2em;
     margin: 10px;
     padding: 10px;
     display: inline-block;
-    margin: 10px;
     transition: background-color 1s, color 1s;
 }
 
 .bts:active, #home:active{
     box-shadow: 0 2px #444;
     transform: translateY(4px);
-
 }
 
 .tamanhos{
     background-color: #f794a4;
-    font-size: 1.2em;
     color: #444;
     border: 1px solid #444;
     border-radius: 15px;
     box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.9);
+    font-size: 1.2em;    
     margin: 10px;
     height: auto;
     padding: 10px;
@@ -185,7 +182,7 @@ span{
 }
 
 #tutorial{
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: center;
 }
 
@@ -196,12 +193,13 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .imagem-slides{
     width: 45%;
     border-radius: 30px;
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.9);
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.9);
 }
 
 #extras{
@@ -225,7 +223,7 @@ footer{
 
 .contatos{
     text-align: center;
-    display: inline-block;    
+    display: inline-block;
 }
 
 li{
