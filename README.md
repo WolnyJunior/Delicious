@@ -44,6 +44,10 @@ Adicionado um script para transição scroll ( estilo scroll-behavior: smooth ),
 
 Foi refeito a parte do banner, para uma transição das imagens mais rápidas.
 
+## Commit Responsivo
+
+Primeira parte para deixar o site responsivo.
+
 ## Techs Usadas:
 </div>
   <div style="display: inline_block"><br>
