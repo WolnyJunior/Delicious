@@ -40,6 +40,10 @@ Corrigido texto sobre sabores de recheio dos chocotones.
 
 Adicionado um script para transição scroll ( estilo scroll-behavior: smooth ), só que mais suave da página, ao clicar nos botões de link.
 
+## Commit Banner
+
+Foi refeito a parte do banner, para uma transição das imagens mais rápidas.
+
 ## Techs Usadas:
 </div>
   <div style="display: inline_block"><br>
