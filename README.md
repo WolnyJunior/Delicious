@@ -48,6 +48,10 @@ Foi refeito a parte do banner, para uma transição das imagens mais rápidas.
 
 Primeira parte para deixar o site responsivo.
 
+## Commit Responsivo Tablet
+
+Deixar a tela responsiva para dispositivos tablets. 768px x 760px
+
 ## Techs Usadas:
 </div>
   <div style="display: inline_block"><br>
