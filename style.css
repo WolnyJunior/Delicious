@@ -7,41 +7,7 @@ body{
 
 /* html {
     scroll-behavior: smooth;
-  } */
-
-#container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #444;
-    font-size: 14px;
-}
-
-.banner{
-    width: 90%;
-    max-width: 1000px;
-    max-height: 600px;
-    height: 75vh;
-    /* min-height: 45vh;  ajustar no media screen*/
-    border-radius: 100px;
-    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);    
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner img{
-    opacity: 0;
-    position: absolute;
-    object-fit: cover;
-    transition: opacity 1s;
-}
-
-.banner img.selected { 
-    opacity: 1;
-}
+} */
 
 header{
     width: 100%;
@@ -54,14 +20,15 @@ header{
     box-shadow: 1px 5px 8px #444;
 }
 
-.sombra{
-    box-shadow: 5px 8px 12px black;
-}
-
+/* botão home */
 #home{
     position: fixed;
     right: 5px;
     bottom: 20px;
+}
+
+.icon{
+    display: none;
 }
 
 .nome-boleria{
@@ -85,9 +52,45 @@ header{
 
 .menu:hover{
     border: 1.5px solid #222;
-    padding: 7px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.09);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 14px;
+}
+
+.sombra{
+    box-shadow: 5px 8px 12px black;
+}
+
+.banner{
+    width: 90%;
+    max-width: 1000px;
+    max-height: 600px;
+    height: 75vh;
+    border-radius: 100px;
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    opacity: 0;
+    position: absolute;
+    object-fit: cover;
+    transition: opacity 1s;
+}
+
+.banner img.selected { 
+    opacity: 1;
 }
 
 .bolo-capa{
@@ -215,7 +218,6 @@ header{
 
 footer{
     width: 100%;
-    /* max-width: 800px; */
     background-image: linear-gradient(to top, #009efd 0%, #f794a4 100%);
     padding: 5px;
     font-size: 0.8em;
@@ -243,7 +245,29 @@ li{
 }
 
 /* media queries */
+/* Laptop */
+@media (max-width:1024px){
 
+    header{
+        font-size: 1em;
+    }
+
+    .banner{
+        width: 80%;
+        height: 70vh;
+        border-radius: 50px;
+    }
+    
+    .tamanhos, #tutorial{
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Tablet */
 @media (max-width: 768px){
     #home{
         display: none;
@@ -251,15 +275,9 @@ li{
 
     .banner{
         width: 90%;
-        height: 50vh;
+        height: 55vh;
         border-radius: 50px;
-        background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);    
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
-
 
     .bolo-antes, .bolo-depois{
         display: none;
@@ -280,12 +298,6 @@ li{
         margin: 10px;  
     }
 
-    #sabores, #bolo-vulcao, #chocotone{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     #sabores h2, #bolo-vulcao h2, #chocotone span{
         font-weight: bold;
         font-size: 1.2em;
@@ -304,13 +316,11 @@ li{
         margin: 10px;
     }
 
-    .tamanhos, #tutorial{
-        font-size: 1em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    #tamanhos{
+        width: 90%;
     }
-    
+
+
     #extras{
         font-size: 0.9em;
     }
@@ -326,3 +336,47 @@ li{
     }
     
 }
+
+/* Dispositivo Móvel G */
+@media (max-width: 426px){
+
+    .nome-boleria{
+        font-size: 2em;
+        padding: 5px;
+        border-radius: 15px;
+        margin: 10px;
+    }
+    
+    .banner{
+        width: 90%;
+        height: 30vh;
+        border-radius: 30px;
+    }
+
+    .bolo-antesEdepois{
+        display: none;
+    }
+
+    /* Sabores */
+    .bolo-cardapio{
+        display: none;
+    }
+
+    .imagem-slides{
+        width: 60%;
+    }
+
+    #extras{
+        font-size: 0.7em;
+    }
+    
+    footer{
+        font-size: 0.5em;
+    }
+    
+    h4{
+        font-size: 1.3em;
+    }
+
+}
+
