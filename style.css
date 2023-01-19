@@ -27,6 +27,7 @@ header{
     bottom: 20px;
 }
 
+/* ícone de menu para telas abaixo de 425px */
 .icon{
     display: none;
 }
@@ -56,6 +57,7 @@ header{
     background-color: rgba(0, 0, 0, 0.09);
 }
 
+/* conteúdo da página, exceto header e footer */
 #container{
     display: flex;
     flex-direction: column;
@@ -65,10 +67,12 @@ header{
     font-size: 14px;
 }
 
+/* classe sombra utilizada em alguns elementos */
 .sombra{
     box-shadow: 5px 8px 12px black;
 }
 
+/* banner da capa da página , com o slide automático*/
 .banner{
     width: 90%;
     max-width: 1000px;
@@ -93,10 +97,12 @@ header{
     opacity: 1;
 }
 
+/* proporção do tamanho do bolo no banner */
 .bolo-capa{
     width: 45%;
 }
 
+/* texto sobre como surigu a boleria, e quem é a boleira. */
 #sobre{
     text-align: center;
     display: flex;
@@ -106,6 +112,7 @@ header{
     height: auto;
 }
 
+/* tamanhos das imagens junto ao texto sobre. */
 .bolo-sobre{
     width: 15%;
     border-radius: 30px;
@@ -125,17 +132,21 @@ header{
     display: none;
 }
 
+/* tab - para separar os tipos de bolos */
 #sabores, #bolo-vulcao, #chocotone{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 5px;
 }
+
+/* definindo os tamanhos das fontes dentro do tab */
 #sabores h2, #bolo-vulcao h2, #chocotone span{
     font-weight: bold;
     font-size: 1.4em;
 }
 
+/* imagens dentro do tab */
 .bolo-cardapio{
     width: 45%;
     height: auto;
@@ -150,6 +161,7 @@ header{
     margin: 10px;
 }
 
+/* estilizando os botoes usados no TAB acima e botão HOME */
 .bts, #home{
     outline:none;
     box-shadow: 0 9px #444;
@@ -169,6 +181,7 @@ header{
     transform: translateY(4px);
 }
 
+/* estilizando botões SIDE NAVIGATION - que será criado para escolher o tamanho do bolo */
 .tamanhos{
     background-color: #f794a4;
     color: #444;
@@ -187,11 +200,13 @@ header{
     background-color: rgba(0, 0, 0, 0.09);
 }
 
+/* link para uma página tutorial de como cortar a fatia de bolo redondo */
 #tutorial{
     font-size: 1.1em;
     text-align: center;
 }
 
+/* slide de bolos manual - para demonstração */
 .bolos, .bolos-slide{
     width: 90%;
     height: auto;
@@ -202,12 +217,14 @@ header{
     padding: 20px;
 }
 
+/* definindo o tamanho das imagens */
 .imagem-slides{
     width: 45%;
     border-radius: 30px;
     box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.9);
 }
 
+/* texto extra - definindo tamanho e posição */
 #extras{
     font-size: 1.1em;
     display: flex;
@@ -216,6 +233,7 @@ header{
     text-align: center;
 }
 
+/* contatos da boleria e do dev */
 footer{
     width: 100%;
     background-image: linear-gradient(to top, #009efd 0%, #f794a4 100%);
@@ -245,7 +263,7 @@ li{
 }
 
 /* media queries */
-/* Laptop */
+/* adaptando ao tamanho da tela de Laptop */
 @media (max-width:1024px){
 
     header{
@@ -267,7 +285,7 @@ li{
 
 }
 
-/* Tablet */
+/* adaptando ao tamanho da tela de Tablet */
 @media (max-width: 768px){
     #home{
         display: none;
@@ -337,7 +355,7 @@ li{
     
 }
 
-/* Dispositivo Móvel G */
+/* adaptando ao tamanho da tela de Dispositivo Móvel G */
 @media (max-width: 426px){
 
     .nome-boleria{

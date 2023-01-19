@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- <link rel="icon" href="" type="image/png"> -->
     <title>DeLiCiOuS</title>
 </head>
 <body>
@@ -38,7 +36,7 @@
         <h1 id="link-sobre">Sobre</h1>
         <div id="sobre">       
             <img class="bolo-antes bolo-sobre sombra" src="./imagens/bolo-zero.jpg" alt="bolo-zero">
-            <img class="bolo-antesEdepois bolo sobre sombra" src="./imagens/dois-bolos.jpeg" alt="bolo-antes-e-depois">
+            <img class="bolo-antesEdepois sombra" src="./imagens/dois-bolos.jpeg" alt="bolo-antes-e-depois">
             <p>Olá, eu sou a Vitória Wachilewski, mas pode me chamar de Vih. Desde criança gostava de fazer bolos em casa. Em 2020, 
                 com a pandemia, fiquei em home office. Com tempo extra, pude estudar para aprimorar esse gosto. 
                 Assim, nasceu a Delicious - Bolos da Vih. Fiz cursos e estou em constante aprendizado. 
@@ -50,79 +48,72 @@
         </div>
 
         <h1 id="link-sabores">Sabores</h1>
-        <div class="botoes-tab">
+        <div>
             <button class="bts" onclick="bolos('sabores')">Bolos</button>
             <button class="bts" onclick="bolos('bolo-vulcao')">Vulcões</button>
             <button class="bts" onclick="bolos('chocotone')">Chocotone</button>
         </div>
-
             <div id="sabores" class="bolos">
-
-                <img class="bolo-cardapio sombra" src="./imagens/recheio-bolo-gremio-fundo-desfocado.png" alt="Fatia de Bolo">
-                
+                <img class="bolo-cardapio sombra" src="./imagens/recheio-bolo-gremio-fundo-desfocado.png" alt="Fatia de Bolo">                
                 <div class="cardapios">
-                        <ul>
-                            <h2>Massas</h2>
-                            <li class="massas-recheios">Amanteigada de Chocolate</li>
-                            <li class="massas-recheios">Amanteigada de Baunilha</li>
-                        </ul>
-                        <ul>
-                            <h2>Recheios</h2>
-                            <li class="massas-recheios">Brigadeiro Branco</li>
-                            <li class="massas-recheios">Brigadeiro Choc.50%</li>
-                            <li class="massas-recheios">Beijinho de Côco</li>
-                            <li class="massas-recheios">Paçoca</li>
-                            <li class="massas-recheios">Chocolate Trufado(Meio Amargo)</li>
-                            <li class="massas-recheios">Nata com (Bombom ou Morango)</li>
-                        </ul>
+                    <ul>
+                        <h2>Massas</h2>
+                        <li class="massas-recheios">Amanteigada de Chocolate</li>
+                        <li class="massas-recheios">Amanteigada de Baunilha</li>
+                    </ul>
+                    <ul>
+                        <h2>Recheios</h2>
+                        <li class="massas-recheios">Brigadeiro Branco</li>
+                        <li class="massas-recheios">Brigadeiro Choc.50%</li>
+                        <li class="massas-recheios">Beijinho de Côco</li>
+                        <li class="massas-recheios">Paçoca</li>
+                        <li class="massas-recheios">Chocolate Trufado(Meio Amargo)</li>
+                        <li class="massas-recheios">Nata com (Bombom ou Morango)</li>
+                    </ul>
                 </div>
             </div>
 
             <div id="bolo-vulcao" class="bolos" style="display: none;">
-
                 <img class="bolo-cardapio sombra" src="./imagens/vulcao1-850px-menor.jpg" alt="Bolo Vulcão Paçoca">
-
                 <div class="cardapios">
-                        <ul>
-                            <h2>Massas</h2>
-                            <li class="massas-recheios">Amanteigada de Chocolate</li>
-                            <li class="massas-recheios">Amanteigada de Baunilha</li>
-                            <li class="massas-recheios">Bolo de Paçoca</li>
-                            <li class="massas-recheios">Bolo de Cenoura</li>
-                        </ul>
-                        <ul>
-                            <h2>Recheios e Coberturas</h2>
-                            <li class="massas-recheios">Brigadeiro Branco</li>
-                            <li class="massas-recheios">Brigadeiro Choc.50%</li>
-                            <li class="massas-recheios">Brigadeiro Rosa(Morango)</li>
-                            <li class="massas-recheios">Brigadeiro de Paçoca</li>
-                            <li class="massas-recheios">Creme Trufado de Ninho</li>
-                            <li class="massas-recheios">Creme Trufado de Ninho</li>
-                            <li class="massas-recheios">Creme Trufado (Ninho ou Chocolate) <br>
-                                + Ganache de Chocolate Meio Amargo</li>
-                        </ul>
+                    <ul>
+                        <h2>Massas</h2>
+                        <li class="massas-recheios">Amanteigada de Chocolate</li>
+                        <li class="massas-recheios">Amanteigada de Baunilha</li>
+                        <li class="massas-recheios">Bolo de Paçoca</li>
+                        <li class="massas-recheios">Bolo de Cenoura</li>
+                    </ul>
+                    <ul>
+                        <h2>Recheios e Coberturas</h2>
+                        <li class="massas-recheios">Brigadeiro Branco</li>
+                        <li class="massas-recheios">Brigadeiro Choc.50%</li>
+                        <li class="massas-recheios">Brigadeiro Rosa(Morango)</li>
+                        <li class="massas-recheios">Brigadeiro de Paçoca</li>
+                        <li class="massas-recheios">Creme Trufado de Ninho</li>
+                        <li class="massas-recheios">Creme Trufado de Ninho</li>
+                        <li class="massas-recheios">Creme Trufado (Ninho ou Chocolate) <br>
+                            + Ganache de Chocolate Meio Amargo</li>
+                    </ul>
                 </div>
             </div>
 
-            <div id="chocotone" class="bolos" style="display: none;">
-                
+            <div id="chocotone" class="bolos" style="display: none;">                
                 <img class="bolo-cardapio sombra" src="./imagens/chocotoneTopo-850px.jpg" alt="Fatia Chocotone">
-                
                 <div class="cardapios">
-                        <ul>
-                            <li class="massas-recheios"><span>Ouro branco</span><br>
-                                Brigadeiro branco e/ou brigadeiro choc 50% <br>
-                                Ganache de chocolate ao leite nestlé e bombom Ouro Branco.</li>
-                            <li class="massas-recheios"><span>Stikadinho</span> <br>
+                    <ul>
+                        <li class="massas-recheios"><span>Ouro branco</span><br>
                             Brigadeiro branco e/ou brigadeiro choc 50% <br>
-                                Ganache de chocolate ao leite nestlé e chocolate Stikadinho</li>
-                            <li class="massas-recheios"><span>Kit kat</span><br>
-                                Brigadeiro branco e/ou brigadeiro choc 50% <br>
-                                Ganache de chocolate ao leite nestlé e chocolate Kit Kat</li>
-                            <li class="massas-recheios"> <span>Napolitano</span> <br>
-                            Brigadeiro branco e/ou brigadeiro choc 50%,brigadeiro rosa (morango) <br>
-                                Ganache de chocolate ao leite nestlé e chocolate Napolitano</li>
-                        </ul>
+                            Ganache de chocolate ao leite nestlé e bombom Ouro Branco.</li>
+                        <li class="massas-recheios"><span>Stikadinho</span> <br>
+                        Brigadeiro branco e/ou brigadeiro choc 50% <br>
+                            Ganache de chocolate ao leite nestlé e chocolate Stikadinho</li>
+                        <li class="massas-recheios"><span>Kit kat</span><br>
+                            Brigadeiro branco e/ou brigadeiro choc 50% <br>
+                            Ganache de chocolate ao leite nestlé e chocolate Kit Kat</li>
+                        <li class="massas-recheios"> <span>Napolitano</span> <br>
+                        Brigadeiro branco e/ou brigadeiro choc 50%,brigadeiro rosa (morango) <br>
+                            Ganache de chocolate ao leite nestlé e chocolate Napolitano</li>
+                    </ul>
                 </div>
             </div>
         
@@ -143,7 +134,7 @@
                 </div>
             </div>        
 
-            <h1 id="link-bolos">Bolos</h1>
+        <h1 id="link-bolos">Bolos</h1>
         
         <div id="bolos" class="w3-content w3-display-container bolos-slide">
             
@@ -188,11 +179,8 @@
             <button class="w3-button w3-display-right" onclick="plusDivs(+1)">Próx &#10095; </button>
 
         </div>
-
     </div>
-
     <hr>
-
     <div id="extras">
         <div>
             <h3>Extras</h3>
@@ -200,7 +188,6 @@
                 morangos (fora de época), são cobrados à parte, pois tratam-se de adicionais. <br>
                 Consulte valores. </p>
         </div>
-
         <div>
             <h3>Mais Informações</h3>
             <p>As encomendas devem ser feitas com antecedência mínima de 7 dias; <br>
@@ -209,16 +196,14 @@
                 Pagamento via pix (entrada)</p>
         </div>
     </div>
-    <!-- <a href="#delicious"><button id="inicio">Home</button></a> -->
-
 
     <footer>
         <div id="link-contatos" class="contatos">
-                <ul id="contatos">
-                    <h4>Contatos Delicious:</h4>
-                    <a class="contatos" href="https://wa.me/+5551985445748" target="_blank"><li><img class="icon-rede-social" src="./imagens/icons/whatsapp.PNG"></li></a>
-                    <a class="contatos" href="https://www.instagram.com/delicious_da_vih/?next=%2F" target="_blank"><li><img class="icon-rede-social" src="./imagens/icons/instagram.PNG"></li></a>
-                </ul>
+            <ul id="contatos">
+                <h4>Contatos Delicious:</h4>
+                <a class="contatos" href="https://wa.me/+5551985445748" target="_blank"><li><img class="icon-rede-social" src="./imagens/icons/whatsapp.PNG"></li></a>
+                <a class="contatos" href="https://www.instagram.com/delicious_da_vih/?next=%2F" target="_blank"><li><img class="icon-rede-social" src="./imagens/icons/instagram.PNG"></li></a>
+            </ul>
         </div>
 
         <div id="rodape">            
