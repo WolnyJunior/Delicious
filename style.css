@@ -48,6 +48,8 @@ header{
     /* display: inline-block; */
     margin: 20px;
     padding: 7px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
     border: 0.1px solid #808080;
     border-radius: 15px;
     transition: all 0.5s;
@@ -79,8 +81,6 @@ header{
     font-size: 2em;
     /* margin-left: 50px; */
   }
-
-
 
 /* conteúdo da página, exceto header e footer */
 #container{
@@ -265,7 +265,7 @@ footer{
     padding: 5px;
     font-size: 0.8em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
