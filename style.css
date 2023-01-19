@@ -27,11 +27,6 @@ header{
     bottom: 20px;
 }
 
-/* ícone de menu para telas abaixo de 425px */
-.icon{
-    display: none;
-}
-
 .nome-boleria{
     display: flex;
     justify-content: flex-start;
@@ -55,6 +50,14 @@ header{
     border: 1.5px solid #222;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.09);
+}
+
+.icon-menu{
+    width: 35px;
+}
+.topnav .icon {
+    display: none;
+    width: 15%;
 }
 
 /* conteúdo da página, exceto header e footer */
@@ -282,7 +285,6 @@ li{
         justify-content: center;
         align-items: center;
     }
-
 }
 
 /* adaptando ao tamanho da tela de Tablet */
@@ -352,7 +354,6 @@ li{
         width: 25px;
         margin: 8px;
     }
-    
 }
 
 /* adaptando ao tamanho da tela de Dispositivo Móvel G */
@@ -364,7 +365,26 @@ li{
         border-radius: 15px;
         margin: 10px;
     }
-    
+
+    /* Menu responsivo */
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
     .banner{
         width: 90%;
         height: 30vh;
@@ -395,6 +415,4 @@ li{
     h4{
         font-size: 1.3em;
     }
-
 }
-

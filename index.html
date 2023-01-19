@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>DeLiCiOuS</title>
@@ -12,13 +13,16 @@
 <body>
     <header id="delicious">
         <h1 class="nome-boleria">DeLiCiOuS</h1>
+        <div class="topnav" id="myTopnav">
             <ul>
+                <a href="#home" class="active"></a>
                 <a href="#link-sobre"><li class="menu">Sobre</li></a>
                 <a href="#link-sabores"><li class="menu">Sabores</li></a>
                 <a href="#link-bolos"><li class="menu">Bolos</li></a>
                 <a href="#link-contatos"><li class="menu">Contatos</li></a>
-                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-            </ul>        
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img class="icon-menu" src="./imagens/icons/menu.png" alt=""></a>
+            </ul>
+        </div>  
     </header>
     
     <a href="#delicious"><button id="home">Home</button></a>
