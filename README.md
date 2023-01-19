@@ -54,7 +54,7 @@ Deixar a tela responsiva para dispositivos tablets. 768px x 760px
 
 ## Commit Responsivo Dispositivo Móvel G
 
-Deixar a tela responsiva para dispositivos móveis(celulares). Abaixo de 426px
+Deixar a tela responsiva para dispositivos móveis(celulares). Até de 426px
 
 ## Techs Usadas:
 </div>
