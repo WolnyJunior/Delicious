@@ -85,11 +85,19 @@ function bolos(tipoDeBolo) {
     });
   });
 
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+  // function myFunction() {
+  //   var x = document.getElementById("mySidenav");
+  //   if (x.className === "sidenav") {
+  //     x.className += " responsive";
+  //   } else {
+  //     x.className = "sidenav";
+  //   }
+  // }
+
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
   }

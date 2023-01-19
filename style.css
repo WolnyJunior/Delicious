@@ -23,8 +23,8 @@ header{
 /* botão home */
 #home{
     position: fixed;
-    right: 5px;
-    bottom: 20px;
+    left: 5px;
+    bottom: 120px;
 }
 
 .nome-boleria{
@@ -37,9 +37,16 @@ header{
     background-image: linear-gradient(to top, #fdd6bd 10%, #009efd 100%);
 }
 
+.sidenav a {
+    text-decoration: none;
+}
+
+
 .menu{
-    display: inline-block;
-    margin: 10px;
+    text-align: center;
+    /* display block caso queira fazer o menu horizontal - mas estava com um bug */
+    /* display: inline-block; */
+    margin: 20px;
     padding: 7px;
     border: 0.1px solid #808080;
     border-radius: 15px;
@@ -52,13 +59,28 @@ header{
     background-color: rgba(0, 0, 0, 0.09);
 }
 
-.icon-menu{
-    width: 35px;
-}
-.topnav .icon {
-    display: none;
-    width: 15%;
-}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.09);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2em;
+    /* margin-left: 50px; */
+  }
+
+
 
 /* conteúdo da página, exceto header e footer */
 #container{
@@ -293,6 +315,9 @@ li{
         display: none;
     }
 
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
     .banner{
         width: 90%;
         height: 55vh;
@@ -364,25 +389,6 @@ li{
         padding: 5px;
         border-radius: 15px;
         margin: 10px;
-    }
-
-    /* Menu responsivo */
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
     }
 
     .banner{

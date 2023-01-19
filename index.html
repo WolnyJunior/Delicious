@@ -13,19 +13,21 @@
 <body>
     <header id="delicious">
         <h1 class="nome-boleria">DeLiCiOuS</h1>
-        <div class="topnav" id="myTopnav">
-            <ul>
-                <a href="#home" class="active"></a>
+        <div id="mySidenav" class="sidenav">
+            
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#delicious"><li class="menu">Menu</li></a>
                 <a href="#link-sobre"><li class="menu">Sobre</li></a>
                 <a href="#link-sabores"><li class="menu">Sabores</li></a>
                 <a href="#link-bolos"><li class="menu">Bolos</li></a>
                 <a href="#link-contatos"><li class="menu">Contatos</li></a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img class="icon-menu" src="./imagens/icons/menu.png" alt=""></a>
-            </ul>
-        </div>  
+                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img class="icon-menu" src="./imagens/icons/menu.png" alt=""></a> -->
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
     </header>
     
-    <a href="#delicious"><button id="home">Home</button></a>
+    <!-- <a href="#delicious"><button id="home">Home</button></a> -->
 <br>
     <div id="container">
         <div class="fundo-gradiente banner sombra">
