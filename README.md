@@ -60,6 +60,10 @@ Deixar a tela responsiva para dispositivos móveis(celulares). Até de 426px
 
 Foi feita uma refatorada no código, eliminando propriedades não usadas e alterando alguns elementos.
 
+## Commit Menu Responsivo
+
+Foi colocado um ícone de menu para tela de smartphones.
+
 ## Techs Usadas:
 </div>
   <div style="display: inline_block"><br>
