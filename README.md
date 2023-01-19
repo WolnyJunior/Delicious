@@ -58,7 +58,7 @@ Deixar a tela responsiva para dispositivos móveis(celulares). Até de 426px
 
 ## Commit Refatorado
 
-Foi feita uma limpeza no código, eliminando propriedades não usadas e alterando alguns elementos.
+Foi feita uma refatorada no código, eliminando propriedades não usadas e alterando alguns elementos.
 
 ## Techs Usadas:
 </div>
