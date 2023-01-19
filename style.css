@@ -3,6 +3,7 @@ body{
     padding: 0;
     margin: 0;
     color: #444;
+    text-align: center;
 }
 
 /* html {
@@ -41,15 +42,14 @@ header{
     text-decoration: none;
 }
 
-
 .menu{
     text-align: center;
     /* display block caso queira fazer o menu horizontal - mas estava com um bug */
-    /* display: inline-block; */
+    display: inline-block;
     margin: 20px;
     padding: 7px;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: black;
+    background-color: rgba(0, 0, 0, 0.09);
+    /* color: black; */
     border: 0.1px solid #808080;
     border-radius: 15px;
     transition: all 0.5s;
@@ -61,26 +61,36 @@ header{
     background-color: rgba(0, 0, 0, 0.09);
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.09);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
+.topnav #myLinks, .topnav .active {
+    display: none;
+}
 
-  .sidenav .closebtn {
+.topnav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.09);
+    position: relative;
+}
+
+.topnav a {
+    color: #444;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background-color: rgba(0, 0, 0, 0.09);
+    display: block;
     position: absolute;
+    right: 0;
     top: 0;
-    right: 25px;
-    font-size: 2em;
-    /* margin-left: 50px; */
-  }
+}
+  
+.topnav a:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+    color: #444;
+}
 
 /* conteúdo da página, exceto header e footer */
 #container{
@@ -154,6 +164,10 @@ header{
     margin: 20px;
 }
 .bolo-antesEdepois{
+    display: none;
+}
+
+.side-recheios{
     display: none;
 }
 
@@ -365,7 +379,6 @@ li{
         width: 90%;
     }
 
-
     #extras{
         font-size: 0.9em;
     }
@@ -385,11 +398,20 @@ li{
 @media (max-width: 426px){
 
     .nome-boleria{
-        font-size: 2em;
+        font-size: 3em;
         padding: 5px;
         border-radius: 15px;
         margin: 10px;
     }
+
+    .sidenav{
+        display: none;
+    }
+
+    .topnav #myLinks, .topnav .active {
+        display: flex;
+    }
+    
 
     .banner{
         width: 90%;

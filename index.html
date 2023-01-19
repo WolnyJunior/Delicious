@@ -15,18 +15,23 @@
         <h1 class="nome-boleria">DeLiCiOuS</h1>
         <div id="mySidenav" class="sidenav">
             
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#delicious"><li class="menu">Menu</li></a>
                 <a href="#link-sobre"><li class="menu">Sobre</li></a>
                 <a href="#link-sabores"><li class="menu">Sabores</li></a>
                 <a href="#link-bolos"><li class="menu">Bolos</li></a>
                 <a href="#link-contatos"><li class="menu">Contatos</li></a>
-                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img class="icon-menu" src="./imagens/icons/menu.png" alt=""></a> -->
         </div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
     </header>
-    
+
+    <div class="topnav">
+        <a href="#home" class="active">Menu</a>
+        <div id="myLinks">
+            <a href="#link-sobre">Sobre</a>
+            <a href="#link-sabores">Sabores</a>
+            <a href="#link-bolos">Bolos</a>
+            <a href="#link-contatos">Contatos</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div> 
     <!-- <a href="#delicious"><button id="home">Home</button></a> -->
 <br>
     <div id="container">
@@ -54,13 +59,14 @@
         </div>
 
         <h1 id="link-sabores">Sabores</h1>
+        </div>
         <div>
             <button class="bts" onclick="bolos('sabores')">Bolos</button>
             <button class="bts" onclick="bolos('bolo-vulcao')">Vulcões</button>
             <button class="bts" onclick="bolos('chocotone')">Chocotone</button>
         </div>
             <div id="sabores" class="bolos">
-                <img class="bolo-cardapio sombra" src="./imagens/recheio-bolo-gremio-fundo-desfocado.png" alt="Fatia de Bolo">                
+                <img class="bolo-cardapio sombra" src="./imagens/recheio-bolo-gremio-fundo-desfocado.png" alt="Fatia de Bolo">                                         
                 <div class="cardapios">
                     <ul>
                         <h2>Massas</h2>
@@ -77,10 +83,11 @@
                         <li class="massas-recheios">Nata com (Bombom ou Morango)</li>
                     </ul>
                 </div>
+            
             </div>
 
             <div id="bolo-vulcao" class="bolos" style="display: none;">
-                <img class="bolo-cardapio sombra" src="./imagens/vulcao1-850px-menor.jpg" alt="Bolo Vulcão Paçoca">
+                <img class="bolo-cardapio sombra" src="./imagens/vulcao1-850px-menor.jpg" alt="Bolo Vulcão Paçoca">                
                 <div class="cardapios">
                     <ul>
                         <h2>Massas</h2>
@@ -120,11 +127,9 @@
                         Brigadeiro branco e/ou brigadeiro choc 50%,brigadeiro rosa (morango) <br>
                             Ganache de chocolate ao leite nestlé e chocolate Napolitano</li>
                     </ul>
-                </div>
-            </div>
-        
-        <h2>Tamanho Bolo de Fatias</h2>
-            <div>
+                </div>    
+            </div>        
+        <h2>Tamanho Bolo de Fatias</h2>            
                 <div id="tamanhos">
                     <ul>
                         <li  class="tamanhos">Mini - 10cm(+-6 fatias)</li>
@@ -137,11 +142,8 @@
                     <p>Veja como cortar as fatias do seu bolo nas imagens a seguir, no facebook da 
                         <a href="https://www.facebook.com/Maos.Na.Massa/photos/a.717550494956075/2556393151071791/" 
                         target="_blank">Mãos na Massa</a></p>
-                </div>
-            </div>        
-
-        <h1 id="link-bolos">Bolos</h1>
-        
+                </div>      
+        <h1 id="link-bolos">Bolos</h1>        
         <div id="bolos" class="w3-content w3-display-container bolos-slide">
             
             <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094; Ant</button>
@@ -183,7 +185,6 @@
             <img class="imagem-slides" src="./imagens/chocotonemordido-1200px.jpg" alt="">
 
             <button class="w3-button w3-display-right" onclick="plusDivs(+1)">Próx &#10095; </button>
-
         </div>
     </div>
     <hr>
