@@ -63,6 +63,7 @@ Foi feita uma refatorada no código, eliminando propriedades não usadas e alter
 ## Commit Menu Responsivo
 
 Foi colocado um ícone de menu para tela de smartphones.
+Depois de fazer vários tentativas, foi encolhido um menu responsivo mais adequado com o conteúdo do site.
 
 ## Techs Usadas:
 </div>
