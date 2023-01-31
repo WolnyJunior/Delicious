@@ -65,6 +65,10 @@ Foi feita uma refatorada no código, eliminando propriedades não usadas e alter
 Foi colocado um ícone de menu para tela de smartphones.
 Depois de fazer vários tentativas, foi encolhido um menu responsivo mais adequado com o conteúdo do site.
 
+## Commit Menu Responsivo Rockseat
+
+Foi atualizado e modificado o menu responsivo.
+
 ## Techs Usadas:
 </div>
   <div style="display: inline_block"><br>
