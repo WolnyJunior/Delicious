@@ -32,33 +32,43 @@ header{
     display: flex;
     justify-content: flex-start;
     font-size: 2em;
-    padding: 10px;
+    /* padding: 10px;
     border: 0.2px solid #444;
     border-radius: 25px;
-    background-image: linear-gradient(to top, #fdd6bd 10%, #009efd 100%);
+    background-image: linear-gradient(to top, #fdd6bd 10%, #009efd 100%); */
 }
 
-.sidenav a {
+header .container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 90%;
+    max-width: 980px;
+    
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+nav a {
     text-decoration: none;
 }
 
-.menu{
+nav ul li{
     text-align: center;
-    /* display block caso queira fazer o menu horizontal - mas estava com um bug */
-    display: inline-block;
+    display: flex;
     margin: 20px;
     padding: 7px;
-    background-color: rgba(0, 0, 0, 0.09);
-    /* color: black; */
-    border: 0.1px solid #808080;
-    border-radius: 15px;
     transition: all 0.5s;
 }
 
-.menu:hover{
-    border: 1.5px solid #222;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.09);
+nav ul li:hover{
+    font-size: x-large;
+    color: black;
 }
 
 .topnav #myLinks, .topnav .active {
@@ -394,8 +404,101 @@ li{
     }
 }
 
-/* adaptando ao tamanho da tela de Dispositivo Móvel G */
-@media (max-width: 426px){
+/* criando menu hamburguer -- menu-rockseat */
+@media (max-width: 670px){
+
+    nav{
+        display: none;
+    }
+
+    .one, .two, .three{
+        background-color: #444;
+        height: 2px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.7s;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+    }
+
+    /* abrir tela do menu em toda tela - fullscreen */
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 73vh;
+
+        background-color: #f794a4;
+        transition-duration: 1.5s;
+
+        /* sobrepor sobre outras camadas no eixo z */
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav{
+        display: flex;
+
+    }
+    
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 35px;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+    
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(4px, -6px);
+    }
+
+    nav ul li{
+        display: flex;
+        border: none;
+        background-color: none;
+    }
+    .menu-section.on nav ul{
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.7s;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
+/* adaptando ao tamanho da tela de Dispositivo Móvel */
+@media (max-width: 425px){
+
+    .menu-section.on{
+        height: 50vh;
+    }
+
+    .menu-section.on nav ul a{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
 
     .nome-boleria{
         font-size: 3em;
@@ -404,13 +507,15 @@ li{
         margin: 10px;
     }
 
-    .sidenav{
+    nav{
         display: none;
     }
 
-    .topnav #myLinks, .topnav .active {
+    /* menu - w3schools */
+    /* .topnav #myLinks, .topnav .active {
         display: flex;
-    }
+    } */
+    
     
 
     .banner{
